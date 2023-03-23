@@ -328,6 +328,7 @@ li {
 
 .quality--container {
     display: flex;
+    margin-bottom: 18rem;
 }
 
 .quality--left {
@@ -339,12 +340,13 @@ li {
 
 }
 
-.quality--img--container {
-}
+
 
 .quality--img {
     max-width: 100%;
     width: 50%;
+    border: solid rgb(226, 232, 240);
+    border-radius: 0.25rem;
 }
 .qw {
     color: rgb(100 21 255);
@@ -363,5 +365,112 @@ li {
     font-weight: 900;
     line-height: 1.25;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     color: rgb(36,63,99);
+    max-width: 60%;
+    width: 100%;
+}
+
+.qw--para {
+    font-size: 1.125rem;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.65;
+    color: rgb(124, 139, 161);
+    margin-bottom: 24px;
+}
+
+.qw--button {
+    width: 25%;
+    padding: 14px 24px;
+    color: white;
+    background-color: rgb(100 21 255);
+    border-radius: 9999px;
+    border: none;
+    font-weight: 700;
+}
+
+.qw--button:hover {
+    animation:ease;
+    background-color:rgba(85, 24, 203, 0.993);
+    transition: 300ms;
+}
+
+/* steps section */ 
+
+.steps--section {
+    margin-top: 80px;
+}
+
+.steps-section--container {
+    display: flex;
+}
+
+.steps--img {
+    width: 100%;
+    max-width: 50%;
+}
+
+.steps--body {
+    max-width: 50%;
+    width: 100%;
+    margin-left: 56px;
+}
+
+.steps--h5 {
+    color: rgb(100 21 255);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.steps--h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.25;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(36,63,99);
+    max-width: 100%;
+    width: 100%;
+}
+
+.steps--list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+}
+
+.steps--lists {
+    flex-direction: column;
+    list-style: none;
+}
+
+.steps--numberli {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(203, 213, 224);
+    margin-right: 24px;
+}
+
+.steps--description {
+}
+
+.steps--h6 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(36,63,99);
+}
+
+.steps--para {
+    margin-top: 0.75rem;
+    max-width: 20rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 2;
+    color: rgb(113, 128, 150);
 }
