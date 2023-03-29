@@ -329,6 +329,7 @@ li {
 .quality--container {
     display: flex;
     margin-bottom: 18rem;
+    margin-top: 8rem;
 }
 
 .quality--left {
@@ -404,11 +405,13 @@ li {
 
 .steps-section--container {
     display: flex;
+    align-items: center;
 }
 
 .steps--img {
     width: 100%;
     max-width: 50%;
+    height: 100%;
 }
 
 .steps--body {
@@ -421,7 +424,7 @@ li {
     color: rgb(100 21 255);
     font-weight: 700;
     letter-spacing: 0.1em;
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     margin-bottom: 1rem;
 }
@@ -441,6 +444,7 @@ li {
     display: flex;
     flex-direction: row;
     margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 .steps--lists {
@@ -456,8 +460,7 @@ li {
     margin-right: 24px;
 }
 
-.steps--description {
-}
+
 
 .steps--h6 {
     font-size: 1.25rem;
@@ -473,4 +476,30 @@ li {
     font-weight: 500;
     line-height: 2;
     color: rgb(113, 128, 150);
+}
+
+
+
+/* VALUES SECTION */ 
+
+.values--section {
+    margin-top: 25rem;
+}
+
+.values--section--container {
+    display: flex;
+    margin-top: 15rem;
+}
+
+.values--body {
+    width: 100%;
+    max-width: 50%;
+    margin-right: 36px;
+    
+}
+
+.values--img {
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
 }
