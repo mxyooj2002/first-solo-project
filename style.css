@@ -580,3 +580,92 @@ li {
     background-color: rgb(100 21 255);
     border: none;
 }
+
+/* PLANS SECTION */ 
+
+
+.plans--section--container {
+    margin-top: 16rem;
+}
+
+.plans--body--container {
+
+}
+
+.plans--header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.plans--h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    color: rgb(36,63,99);
+    margin-bottom: 16px;
+    margin-top: 14px;
+}
+
+.plans--p {
+    text-align: center;
+    color: rgb(124, 139, 161);
+    font-size: 18px;
+    font-weight: 500;
+    width: 50%;
+    margin-top: 14px;
+}
+
+.plans {
+
+}
+
+.plan {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(226, 232, 240);
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.plans--highlighter {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    background-color:  rgb(129, 230, 217);
+}
+
+.plans--pack {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.plan--name {
+    color: rgb(26, 32, 44);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32.5px;
+}
+
+.plan--price {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.plan--time {
+color: rgb(160 174 192);
+font-weight: 700;
+letter-spacing: 1.6px;
+}
+
