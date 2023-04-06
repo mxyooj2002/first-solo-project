@@ -573,8 +573,9 @@ li {
 }
 
 .v--button {
-    padding: 12px 32px;
+    padding: 14px 32px;
     border-radius: 9999px;
+    margin-top: 2rem;
     color: white;
     font-weight: 700;
     background-color: rgb(100 21 255);
@@ -589,7 +590,7 @@ li {
 }
 
 .plans--body--container {
-
+    margin-bottom: 4rem;
 }
 
 .plans--header {
@@ -618,16 +619,22 @@ li {
 }
 
 .plans {
+    width: 100%;
+    margin-right: 2rem;
+}
 
+
+.three--plan--container {
+    width: calc(100% / 3);
+    display: flex;
+    width: 100%;
 }
 
 .plan {
-    width: calc(100% / 3);
+    
     display: flex;
     flex-direction: column;
-    border: solid 2px rgb(226, 232, 240);
-    border-top-right-radius: 0.5rem;
-    border-top-left-radius: 0.5rem;
+    
 }
 
 .plans--highlighter {
@@ -637,7 +644,7 @@ li {
     height: 0.5rem;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
-    background-color:  rgb(129, 230, 217);
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .plans--pack {
@@ -645,6 +652,8 @@ li {
     align-items: center;
     flex-direction: column;
     padding: 32px;
+    border: solid 2px rgb(226, 232, 240);
+    width: 100%;
 }
 
 .plan--name {
@@ -669,3 +678,47 @@ font-weight: 700;
 letter-spacing: 1.6px;
 }
 
+.plan--benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: solid 2px rgb(226, 232, 240);
+}
+
+.plan--benefitter {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+}
+
+.plan--benefit {
+    font-weight: 500;
+    margin-top: 1.25rem;
+    color: rgb(113, 128, 150);
+}
+
+.button--container {
+    border: solid 2px rgb(226, 232, 240);
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buynow--button {
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    border: none;
+    width: 100%;
+}
+
+.plans--pack--business {
+    
+}
