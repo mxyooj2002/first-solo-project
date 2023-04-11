@@ -845,3 +845,46 @@ letter-spacing: 1.6px;
         font-weight: 600;
     }
 
+
+
+
+
+    /* Footer SECTION */ 
+
+
+    footer {
+        margin-top: 20rem;
+        background-color: rgb(100 21 255);
+    }
+
+    .footer--container {
+        padding-top: 6rem;
+    }
+
+    .footer--links--container {
+    }
+
+
+    .footer--links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer--link {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 5);
+        align-items: center;
+    }
+
+    .footer--list {
+        padding-bottom: 10px;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .footer--list--header {
+        color: white;
+        margin-bottom: 24px;
+    }
