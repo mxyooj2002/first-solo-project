@@ -862,18 +862,20 @@ letter-spacing: 1.6px;
     }
 
     .footer--links--container {
+        border-bottom: 1px solid grey;
+        padding-bottom: 2rem;
     }
 
 
     .footer--links {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .footer--link {
         display: flex;
         flex-direction: column;
-        width: calc(100% / 5);
         align-items: center;
     }
 
@@ -887,4 +889,33 @@ letter-spacing: 1.6px;
     .footer--list--header {
         color: white;
         margin-bottom: 24px;
+    }
+
+    .bottom--footer {
+        display: flex;
+        margin-top: 5rem;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .footer--logo-- {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .footer--logo {
+        width: 2rem;
+        margin-right: 12px;
+    }
+
+    .footer--company {
+        color: white;
+        font-weight: 900;
+        letter-spacing: 0.05em;
+    }
+
+    .footer--copyright {
+        color: rgb(203, 213, 224);
     }
