@@ -943,6 +943,59 @@ letter-spacing: 1.6px;
     }
 
 
+    /* DEV SECTION */
+
+
+    .developers {
+        margin-top: 20rem;
+    }
+    .dev--container {
+        background-color: #6415ff;
+        border-radius: 8px;
+        padding: 6rem 6rem;
+        display: flex;
+        align-items: center;
+    }
+
+    
+
+    .dev--body {
+        display: flex;
+        align-items: center;
+    }
+
+    .dev--header {
+        color: white;
+        font-size: 32px;
+        width: 60%;
+    }
+
+    .dev--buttons {
+        margin-left: 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dev--button {
+        padding: 20px 34px;
+        border-radius: 9999px;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+        background-color: #f56565;
+        border: none;
+    }
+
+    .dev--buttontwo {
+        padding: 20px 34px;
+        border-radius: 9999px;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 3rem;
+        background-color: transparent;
+        border: 1px solid lightgrey;
+        color: white;
+    }
 
 
 
@@ -950,7 +1003,7 @@ letter-spacing: 1.6px;
 
 
     footer {
-        margin-top: 20rem;
+        margin-top: 12rem;
         background-color: rgb(100 21 255);
     }
 
@@ -991,6 +1044,7 @@ letter-spacing: 1.6px;
     .bottom--footer {
         display: flex;
         margin-top: 5rem;
+        padding-bottom: 6rem;
         align-items: center;
         justify-content: space-between;
 
@@ -1015,4 +1069,23 @@ letter-spacing: 1.6px;
 
     .footer--copyright {
         color: rgb(203, 213, 224);
+    }
+
+    .footer--socials--icon {
+        display: flex;
+    }
+
+    .footer__socials--link {
+        padding: 8px;
+        border-radius: 100%;
+        background-color: #fff;
+        display: flex;
+        margin-right: 16px;
+
+    }
+
+    .footer__socials--link--svg {
+        width: 16px;
+        height: 16px;
+        fill: black;
     }
